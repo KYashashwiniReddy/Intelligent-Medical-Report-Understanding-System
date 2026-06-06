@@ -1,0 +1,10 @@
+streamlit
+streamlit-option-menu
+tensorflow
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+fpdf
+kagglehub
