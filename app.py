@@ -28,7 +28,81 @@ st.set_page_config(
     page_icon="🏥",
     layout="wide"
 )
+st.markdown("""
+<style>
 
+.stApp{
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #0f766e
+    );
+    color:white;
+}
+
+.main-title{
+    text-align:center;
+    font-size:3rem;
+    font-weight:800;
+    color:white;
+    margin-bottom:10px;
+}
+
+.sub-title{
+    text-align:center;
+    color:#cbd5e1;
+    font-size:1.1rem;
+    margin-bottom:30px;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(15px);
+    padding:20px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.1);
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+}
+
+.metric-card{
+    background:linear-gradient(
+        135deg,
+        #06b6d4,
+        #3b82f6
+    );
+    padding:20px;
+    border-radius:18px;
+    text-align:center;
+    color:white;
+}
+
+.stButton>button{
+    width:100%;
+    border:none;
+    border-radius:12px;
+    height:55px;
+    font-size:18px;
+    font-weight:700;
+    background:linear-gradient(
+        135deg,
+        #14b8a6,
+        #06b6d4
+    );
+    color:white;
+}
+
+.stButton>button:hover{
+    transform:scale(1.02);
+    transition:0.3s;
+}
+
+textarea{
+    border-radius:15px !important;
+}
+
+</style>
+""", unsafe_allow_html=True)
 # ==========================================
 # LOAD MODEL
 # ==========================================
